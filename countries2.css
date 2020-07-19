@@ -1,0 +1,189 @@
+
+p {
+    /* color: lightsteelblue;
+    background-color: lavenderblush; */
+    text-indent: 30px;
+    text-transform: uppercase;
+  }
+    /* ------------------------------------------------------------- */
+  /* slaide show  */
+    
+    .zizo{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-left: 30%;
+    }         
+  
+    .zoza{
+      width: 90%;
+      height: 90%;
+     }
+  
+   .zoza img{
+     width: 300px;
+     height: 400px;
+   }
+   /* ----------------------------------------------------------- */
+  /* hotel ranking */
+  table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 65px;
+      margin-left: 150px;
+      margin-bottom: 25px;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    
+    /* stars */
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial;
+      margin: 0 auto; /* Center website */
+      max-width: 800px; /* Max width */
+      padding: 20px;
+    }
+    
+    .heading {
+      font-size: 25px;
+      margin-right: 25px;
+    }
+    
+    .fa {
+      font-size: 25px;
+    }
+    
+    .checked {
+      color: orange;
+    }
+    
+    /* Three column layout */
+    .side {
+      float: left;
+      width: 15%;
+      margin-top: 10px;
+    }
+    
+    .middle {
+      float: left;
+      width: 70%;
+      margin-top: 10px;
+    }
+    
+    /* Place text to the right */
+    .right {
+      text-align: right;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* The bar container */
+    .bar-container {
+      width: 100%;
+      background-color: #f1f1f1;
+      text-align: center;
+      color: white;
+    }
+    
+    /* Individual bars */
+    .bar-5 {width: 100%; height: 18px; background-color: #4CAF50;}
+    .bar-4 {width: 75%; height: 18px; background-color: #2196F3;}
+    .bar-3 {width: 45%; height: 18px; background-color: #00bcd4;}
+    .bar-2 {width: 20%; height: 18px; background-color: #ff9800;}
+    .bar-1 {width: 1%; height: 18px; background-color: #f44336;}
+    
+    /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+    @media (max-width: 400px) {
+      .side, .middle {
+        width: 100%;
+      }
+      /* Hide the right column on small screens */
+      .right {
+        display: none;
+      }
+    }
+    
+    .Ratings2{
+      width: 100%;
+    }
+    
+    .HotelRatings{
+      width: 100%;
+    }
+    
+    .HotelRatings tr th{
+      width: 190px;
+    }
+  
+    ad2{
+      width: 10%;
+      height: 25%;
+      display: flex;
+      justify-content: center;
+  }
+  
+  /* -------------------------------------------------------------------- */
+  /* Callout box - fixed position at the bottom of the page */
+  .callout {
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    margin-left: 20px;
+    max-width: 300px;
+  }
+  
+  /* Callout header */
+  .callout-header {
+    padding: 30px 20px;
+    background: #555;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .callout-header img{
+  width: 200px;
+  height: 210px;
+  }
+  
+  /* Callout container/body */
+  .callout-container {
+    padding: 15px;
+    background-color: #ccc;
+    color: black
+  }
+  
+  /* Close button */
+  .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  /* Change color on mouse-over */
+  .closebtn:hover {
+    color: lightgrey;
+  }
+  
+  /* ------------------------------------- */
+  
