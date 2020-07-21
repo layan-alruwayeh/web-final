@@ -18,3 +18,6 @@ function euroConverter(){
     document.converter.pound.value = document.converter.yen.value * 0.00434
     document.converter.euro.value = document.converter.yen.value * 0.00605
     }
+
+    // ------------------------------------- 
+ 
